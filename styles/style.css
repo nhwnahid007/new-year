@@ -9,11 +9,15 @@
 .container {
   width: 82.5%;
   max-width: 1320px;
-  margin: 10px auto;
+  margin: 120px auto;
 }
 
 .container-height {
   height: 600px;
+}
+
+.banner-top {
+  margin-top: 50px;
 }
 
 .banner-bg {
@@ -137,9 +141,9 @@
 
 .frame-2024 {
   /* padding: ; */
-  width: 200px;
+  width: 160px;
   padding-top: 68px;
-  padding-right: 140px;
+  padding-right: 170px;
 }
 
 .frame {
@@ -151,4 +155,60 @@
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+}
+
+/* join section */
+
+.join {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  height: 482px;
+  border-radius: 16px;
+
+}
+
+.place-time {
+  /* padding: 100px 48px auto; */
+
+  text-align: center;
+  padding-top: 100px;
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.place-time button {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  margin-top: 48px;
+  /* justify-content: center; */
+
+  border: 0;
+}
+
+.pink-text {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
 }
