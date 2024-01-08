@@ -167,7 +167,6 @@
   );
   height: 482px;
   border-radius: 16px;
-
 }
 
 .place-time {
@@ -212,3 +211,86 @@
   line-height: 56px; /* 175% */
   text-transform: capitalize;
 }
+
+/* Offer coming soon */
+
+.cs-title {
+  color: #f00;
+  /* text-align: center; */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.cs {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-top: 10px;
+}
+
+.cs-paragraph {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  max-width: 400px;
+  padding-top: 20px;
+}
+
+.round-border {
+  border-radius: 100%;
+  border: 15px solid #f00;
+  width: 440px;
+  height: 440px;
+  flex-shrink: 0;
+}
+
+.round-border img {
+  margin-top: ;
+  width: 364.844px;
+  height: 364.844px;
+  flex-shrink: 0;
+  display: block;
+  margin: 40px auto;
+  align-items: center;
+}
+
+.year-h {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.year-p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  max-width: 275px;
+}
+
+.offers{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hny{
+  padding-top: 40px;
+  padding-left: 110px;
+}
+
